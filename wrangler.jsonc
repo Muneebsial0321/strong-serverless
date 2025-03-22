@@ -6,9 +6,9 @@
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
-  "vars": {
-    "ENV_HEALTH": "health good"
-  },
+  // "vars": {
+  //   "ENV_HEALTH": "health good"
+  // },
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
