@@ -1,14 +1,14 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "worker",
+  "name": "strong-serverless",
   "main": "src/index.ts",
-  "compatibility_date": "2025-03-16"
+  "compatibility_date": "2025-03-16",
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
+  "vars": {
+    "ENV_HEALTH": "health good"
+  },
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
