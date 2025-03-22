@@ -1,6 +1,6 @@
 import { env } from "cloudflare:workers"
 
-export const PORT = env.PORT! || ""
+export const PORT = env.PORT
 export const ENV_HEALTH = env.ENV_HEALTH
 export const GOOGLE_ID = env.GOOGLE_ID
 export const GOOGLE_SECRET = env.GOOGLE_SECRET
