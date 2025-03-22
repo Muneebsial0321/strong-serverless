@@ -5,10 +5,13 @@
     "deploy": "wrangler deploy --minify"
   },
   "dependencies": {
+    "@hono/oauth-providers": "^0.7.0",
+    "google-auth-library": "^9.15.1",
     "hono": "^4.7.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20250214.0",
+    "@types/node": "^22.13.11",
     "wrangler": "^3.109.2"
   }
 }
