@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "worker",
+  "name": "strong-serverless",
   "main": "src/index.ts",
   "compatibility_date": "2025-03-16"
   // "compatibility_flags": [
